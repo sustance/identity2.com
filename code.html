@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="date" content=''>
+	<title>Identity2 smol long-text publishing resource code</title>
+	
+    <meta name="Identity2 is a resource and enabler for all stages of smol long-format text publishing, focusing on a philosophies of write-once publish anywhere, open source and self-sufficiency."/>
+    
+    <meta name="keywords" content="Concept, Writing, Collaboration, Review, Copy Editing, ISBN, Render eDocs, Hardcopy proofs, Print on demand, Full Publication,Gemini, gemtext, markdown, html, pdf, paperback, hardcover, book, novel, blog, family, history, travel" />
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org", 
+      "@type": "Information",
+      "headline": "Smol long-text publishing",
+      "description": "Concept, Writing, Collaboration, Review , Copy Editing, ISBN, Render eDocs, Hardcopy proofs, Print on demand, Full Publication",
+      "image": "http://identity2/i/bks.jpg",
+      "url": "http://identity2",
+      "datePublished": "2022-08-23",
+      "dateCreated": "2022-08-23",
+      "dateModified": "2022-08-23",
+      "publisher": "Inentity2",
+      "author": {
+        "@type": "Person",
+        "name": "Etac Sufbo"
+      }
+    }
+    </script>    
+    
+    
+<style>
+body{margin-left: 4em; background-color: #ffffff;
+ background-image: url("i/Noisy-Grid.jpg");background-repeat;}
+              
+h1  {color: #003c32; margin-top: -0.3em; margin-left: -2em;
+     padding-left: 5em; padding-bottom: 0.5em; 
+     padding-top: 0.6em; padding-left: -1em; 
+     background-color: #ddd;}
+
+h2  {color: #003c32; margin-top: .3em; padding-bottom: 0.2em;
+     padding-top: .5em; padding-left: -1em; 
+     background-color: rgba(255,255,255,0.33);}
+     
+h3  {color: #aad7dc;}
+
+ul  {color: #804000;}
+
+li  {color: #804000;}
+
+blockquote {
+    font: 14px/22px normal helvetica, sans-serif; margin-top: 10px;
+    margin-bottom: 10px; margin-left: 30px; padding-left: 15px;
+    border-left: 6px solid #aad7dc;}
+
+p   {padding-left: 1em;padding-top: .6em;}
+
+/* */
+.language-ascii-art {color: #003c32; display: inline-block; 
+    font-family: "Lucida Console", Monaco, monospace;
+    letter-spacing: -0.2em; line-height: 0.9em;
+    text-shadow: 0 0 5px rgba(100,100,100,0.5);}
+
+.language-ascii-art2 {color: #003c32; display: inline-block; 
+    text-shadow: 0 0 5px rgba(100,100,100,0.5);
+    background-color: rgba(255,255,255,0.33);}}
+    
+.language-ascii-art3 {color: #003c32; display: inline-block; 
+    font-family: "Monaco, monospace"; 
+    letter-spacing: -0.2em; line-height: 0.9em;
+    text-shadow: 0 0 5px rgba(100,100,100,0.5); background-image: 
+    url("White-Linen-Seamless-Pattern-For-Website-Backgrounds.jpg"); 
+    background-repeat: repeat;}
+</style>
+
+  </head>
+  <body>
+    <!--<p>Date: </p>-->
+<h1>Identity2</h1>
+<pre class="language-ascii-art2"><code>┬┌┬┐┌─┐┬ ┬┌┬┐┬┌┬┐┬ ┬┌─┐  ┬  ┌─┐┬ ┬┌─┐ ┌─┐┌─┐┌─╮┌┬┐ ┌┬┐┌─┐┬ ┬┌┬┐
+│ ││├┤ │╲│ │ │ │ └┬┘┌─┘  │  │ ││╲││┌┐ ├┤ │ │├( │││  │ ├┤  ╳  │
+┴ ┴┘└─┘┴ ┴ ┴ ┴ ┴  ┴ └──  └─┘└─┘┴ ┴└─┘ ┴  └─┘┴ ┴┴ ┴  ┴ └─┘┴ ┴ ┴
+</code></pre>
+<h2>Code</h2>
+<blockquote>
+<p>This site is a working demonstration of taking a standard gemini capsule and auto generating and distributing derived MD, Web, LaTeX, PDF, ePub, etc.</p>
+</blockquote>
+<p>If you can improve on my ugly Python and the HTML template please share your ideas, and although the Eisvogel works magically I am sure something simple and elegant can devised for this specific task.</p>
+<p>I am interested in futhering and promoting gemtext encoding /gemini as an integral part for the complete heirachy of longtext publishing.</p>
+<p>This site is processed thru Gemtext to Markdown, Markdown to Html, Markdown to LaTeX, Latex to PDF, PDF to print. If that all works ok finalstep of Htm to eBooks should be trivial.</p>
+<p>Gemtext encoding is identical to COMMONMARK standard markdown except for the URL encoding, so the following converts it to commonmark.</p>
+<pre><code>[Python3]
+modif = &#39;&#39;
+with open(fi, &#39;r&#39;) as i_file:
+   while True:
+       line = i_file.readline()
+       if not line:
+           break
+       if&quot;&gt;&quot;&lt;a href=&quot;&quot; in line:&lt;/a&gt;
+
+           line&quot;&gt;= re.sub(&#39;&lt;a href=&quot;&#39;, &#39;&lt;a href=&quot;&#39;, line)&lt;/a&gt;
+
+           line = re.sub(&#39;.gmi  +&#39;, &#39;.html&quot;&gt;&#39;, line)
+           line = re.sub(&#39;  +&#39;, &#39;&quot;&gt;&#39;, line)
+           line = re.sub(&#39;\n&#39;, &#39;&lt;/a&gt;&#39;, line)
+           line = re.sub(&#39;gemini://&#39;, &#39;https://&#39;, line)
+           modif = f&#39;{modif} {line}\n\n&#39;
+       else:
+           modif = f&#39;{modif} {line}&#39;              
+mdfile.write(modif)
+mdfile.close()
+</code></pre>
+<p>With the execption that the html encoded url is ignored by pandoc in the following</p>
+<pre><code>[Python3]
+md = re.sub(&#39;.gmi&#39;, &#39;.md&#39;, fi)
+texdir = re.sub(&#39;gemini&#39;, &#39;gemini-tex&#39;, tex)
+title = re.sub(&#39;.gmi&#39;, &#39;&#39;, file)
+os.system(
+   f&#39;pandoc --standalone --from=commonmark --metadata title=&quot;{title}&quot; &#39;
+   f&#39;--template tmplt.html {md} -o {htm}&#39;
+)
+</code></pre>
+<p>With tmplt.html being something like the following</p>
+<pre><code>[html]
+&lt;!doctype html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+  &lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+    &lt;meta name=&quot;date&quot; content=&#39;$date-meta$&#39;&gt;
+    &lt;title&gt;Identity2 $title$&lt;/title&gt;
+&lt;style&gt;
+body{margin-left: 4em; background-color: #ffffff;
+ background-image: url(&quot;i/Noisy-Grid.jpg&quot;);background-repeat;}
+              
+h1  {color: #003c32; margin-top: -0.3em; margin-left: -2em;
+     padding-left: 5em; padding-bottom: 0.5em; 
+     padding-top: 0.6em; padding-left: -1em; 
+     background-color: #ddd;}
+
+h2  {color: #003c32; margin-top: .3em; padding-bottom: 0.2em;
+     padding-top: .5em; padding-left: -1em; 
+     background-color: rgba(255,255,255,0.33);}
+     
+h3  {color: #aad7dc;}
+
+ul  {color: #804000;}
+
+li  {color: #804000;}
+
+blockquote {
+    font: 14px/22px normal helvetica, sans-serif; margin-top: 10px;
+    margin-bottom: 10px; margin-left: 30px; padding-left: 15px;
+    border-left: 6px solid #aad7dc;}
+
+p   {padding-left: 1em;padding-top: .6em;}
+
+.language-ascii-art2 {color: #003c32; display: inline-block; 
+    text-shadow: 0 0 5px rgba(100,100,100,0.5);
+    background-color: rgba(255,255,255,0.33);}}
+&lt;/style&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+$body$
+  &lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+<p>I place this html on a standard web server, by automated script of course.</p>
+<p>Similarly:</p>
+<pre><code>[Python3]
+os.system(
+   f&#39;pandoc -N --pdf-engine=xelatex  --template &#39;
+   f&#39;eisvogel -f commonmark --toc {md} -o {pdf}&#39;)
+</code></pre>
+<p>Pandoc using XeTeX (as its unicode) and the eisvogel template generates a standalone PDF of every page using this template.</p>
+<p>It will be trivial to concantonate all the pages into a book in the same script iterator, you need to be sure headings levels are consistent so that the pdf's generated table of contents makes sense.</p>
+<p>Since this is an instruction site the properly formatted and paginated pdf allows users to print instructions cleanly.</p>
+<p>This demonstration can inform creators on the effect of site design on repurposed documents and gemini server builders on possible feaatures that can be incorporated as server features.</p>
+<pre><code>  ┏━━━━┓    ┏━━━━┓    ┏━━━━┓    ┏━━━━┓    ┏━━━━┓    ┏━━━━┓  
+  ┗━━━━┛    ┗━━━━┛    ┗━━━━┛    ┗━━━━┛    ┗━━━━┛    ┗━━━━┛  
+</code></pre>
+  </body>
+</html>

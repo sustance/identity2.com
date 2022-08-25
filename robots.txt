@@ -1,0 +1,8 @@
+User-agent: Googlebot
+Disallow: /z/
+Disallow: /j/
+
+User-agent: *
+Allow: /
+
+Sitemap: http://sustance.net/sitemap.xml

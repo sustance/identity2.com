@@ -1,0 +1,4 @@
+#  Tinylog of identity2
+
+## 2022-08-01 13:42:03 UTC
+Launching identity2.pollux.casa capsule !

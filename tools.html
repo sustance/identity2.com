@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="date" content=''>
+	<title>Identity2 smol long-text publishing resource tools</title>
+	
+    <meta name="Identity2 is a resource and enabler for all stages of smol long-format text publishing, focusing on a philosophies of write-once publish anywhere, open source and self-sufficiency."/>
+    
+    <meta name="keywords" content="Concept, Writing, Collaboration, Review, Copy Editing, ISBN, Render eDocs, Hardcopy proofs, Print on demand, Full Publication,Gemini, gemtext, markdown, html, pdf, paperback, hardcover, book, novel, blog, family, history, travel" />
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org", 
+      "@type": "Information",
+      "headline": "Smol long-text publishing",
+      "description": "Concept, Writing, Collaboration, Review , Copy Editing, ISBN, Render eDocs, Hardcopy proofs, Print on demand, Full Publication",
+      "image": "http://identity2/i/bks.jpg",
+      "url": "http://identity2",
+      "datePublished": "2022-08-23",
+      "dateCreated": "2022-08-23",
+      "dateModified": "2022-08-23",
+      "publisher": "Inentity2",
+      "author": {
+        "@type": "Person",
+        "name": "Etac Sufbo"
+      }
+    }
+    </script>    
+    
+    
+<style>
+body{margin-left: 4em; background-color: #ffffff;
+ background-image: url("i/Noisy-Grid.jpg");background-repeat;}
+              
+h1  {color: #003c32; margin-top: -0.3em; margin-left: -2em;
+     padding-left: 5em; padding-bottom: 0.5em; 
+     padding-top: 0.6em; padding-left: -1em; 
+     background-color: #ddd;}
+
+h2  {color: #003c32; margin-top: .3em; padding-bottom: 0.2em;
+     padding-top: .5em; padding-left: -1em; 
+     background-color: rgba(255,255,255,0.33);}
+     
+h3  {color: #aad7dc;}
+
+ul  {color: #804000;}
+
+li  {color: #804000;}
+
+blockquote {
+    font: 14px/22px normal helvetica, sans-serif; margin-top: 10px;
+    margin-bottom: 10px; margin-left: 30px; padding-left: 15px;
+    border-left: 6px solid #aad7dc;}
+
+p   {padding-left: 1em;padding-top: .6em;}
+
+/* */
+.language-ascii-art {color: #003c32; display: inline-block; 
+    font-family: "Lucida Console", Monaco, monospace;
+    letter-spacing: -0.2em; line-height: 0.9em;
+    text-shadow: 0 0 5px rgba(100,100,100,0.5);}
+
+.language-ascii-art2 {color: #003c32; display: inline-block; 
+    text-shadow: 0 0 5px rgba(100,100,100,0.5);
+    background-color: rgba(255,255,255,0.33);}}
+    
+.language-ascii-art3 {color: #003c32; display: inline-block; 
+    font-family: "Monaco, monospace"; 
+    letter-spacing: -0.2em; line-height: 0.9em;
+    text-shadow: 0 0 5px rgba(100,100,100,0.5); background-image: 
+    url("White-Linen-Seamless-Pattern-For-Website-Backgrounds.jpg"); 
+    background-repeat: repeat;}
+</style>
+
+  </head>
+  <body>
+    <!--<p>Date: </p>-->
+<h1>Identity2</h1>
+<pre class="language-ascii-art2"><code>┬┌┬┐┌─┐┬ ┬┌┬┐┬┌┬┐┬ ┬┌─┐  ┬  ┌─┐┬ ┬┌─┐ ┌─┐┌─┐┌─╮┌┬┐ ┌┬┐┌─┐┬ ┬┌┬┐
+│ ││├┤ │╲│ │ │ │ └┬┘┌─┘  │  │ ││╲││┌┐│├┤ │ │├( │││  │ ├┤  ╳  │
+┴ ┴┘└─┘┴ ┴ ┴ ┴ ┴  ┴ └──  └─┘└─┘┴ ┴└─┘ ┴  └─┘┴ ┴┴ ┴  ┴ └─┘┴ ┴ ┴
+</code></pre>
+<h2>Writing</h2>
+<h3>Tools</h3>
+<p>You can write with anything you like as long as it understands unicode.</p>
+<p>It is best to use an editor that allows you to write plain text with as little clutter and distraction as possible, there are hundreds to choose from. I am currently using Geany as I am using gemtext markup and it shows formatted view in a sidebar. <a href="https://www.geany.org/download/releases/"> <strong>www</strong> Geany. Win Linux Mac</a></p>
+<p>To open the generated files from this site other than .gmi gemtext files and re-edit them you can use: <a href="https://overleaf.com"> <strong>www</strong> [tex,pdf] Online Overleaf LaTeX editor</a></p>
+<p><a href="https://www.texstudio.org/"> <strong>www</strong> [tex,pdf] Install Win/Mac/Linux Texstudio LaTeX editor</a></p>
+<p><a href="https://sigil-ebook.com/sigil/download/"><strong>www</strong> [epub,mobi,etc.] Install Win/Mac/Linux Sigil eBook editor</a></p>
+<p><a href="https://www.gimp.org/downloads/"><strong>www</strong> [jpg,png,etc.] Install Win/Mac/Linux Image editor</a></p>
+<p>A particular issue with writing in unicode in gemtext with simple tools is that is easy to enter unicode character that you can not find to remove but creates hassles down stream, find them like this:</p>
+<pre><code>   find . -type f -exec grep -H &#39;┌┬┐┌─┐┬ ┬&#39; {} \;
+</code></pre>
+<p>If you have no 'nix (That's MacOS, Windows subsystem for 'nix, Linux and &amp; BSD) terminal for this or other commands there are many terminal choices online, including: <a href="https://linuxcontainers.org/lxd/try-it/"> <strong>www</strong> Free/no registration terminal if u have no 'nix </a></p>
+<p><a href="https://copy.sh/v86/"> <strong>www</strong> another Free/no registration terminal</a></p>
+<p>The tools above are what I use, partly because they are all free and supported by a community. Frankly it does not matter much what you use when you are aiming for smol and simple systems.</p>
+<p>A good text graphics grapics app would be handy but I have never found one. The good ones use only ascii characters which is too limiting and ugly and the unicode ones are immature.</p>
+<pre class="language-ascii-art2"><code>  ┏━━━━┓    ┏━━━━┓    ┏━━━━┓    ┏━━━━┓    ┏━━━━┓    ┏━━━━┓  
+  ┗━━━━┛    ┗━━━━┛    ┗━━━━┛    ┗━━━━┛    ┗━━━━┛    ┗━━━━┛  
+</code></pre>
+  </body>
+</html>

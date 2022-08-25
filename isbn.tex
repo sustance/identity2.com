@@ -1,0 +1,80 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  pdftitle={isbn},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+
+\title{isbn}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+
+\section{Identity2 ISBN}
+
+\begin{verbatim}
+ ┌─┐┌┬┐┌─┐┬    ┬ ┌─┐ ┌─╮ ┬ ┬
+ └─┐││││ ││    │ └─┐ ├┘┐ │╲│
+ └─┘┴ ┴└─┘└─┘  ┴ └─┘ ┴─┘ ┴ ┴ ○
+\end{verbatim}
+
+Go to Home
+
+International Standard Book Number (ISBN)
+
+If you reach the point where you can sell your work, or maybe even to
+distribute it free of charge, you will need an ISBN.
+
+Wikipedia ISBN article
+
+The ISBN system is partly a public service required to enable the
+location an cataloging of books, and for major publishing companies and
+countries it is a source of revenue.
+
+As a resident of a county with minimal publishing industry or interest I
+am able to provide ISBN as a publisher under somewhat relaxed
+conditions.
+
+\end{document}

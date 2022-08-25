@@ -1,0 +1,154 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  pdftitle={doc-conversion},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+
+\title{doc-conversion}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+
+Return to index
+
+\subsection{Eclectic notes on Doc Conversion}
+
+\subsubsection{LaTeX to html and epub3}
+
+texstudio run htlatex to get html file
+
+Use script to strip out the weird extra empty images and get clean htm
+
+Import to htm to calibre
+
+\begin{itemize}
+\tightlist
+\item
+  Change cover image
+\item
+  Make distinct name
+\item
+  meta: add author sort
+\item
+  look: text: justify, smarten punctuation,
+\item
+  page: ipad3
+\end{itemize}
+
+\textbackslash d is equivalent to {[}0-9{]} \textbackslash w is
+equivalent to {[}a-zA-Z0-9\_{]} \textbackslash s is equivalent to any
+whitespace
+
+``?'' matches 0 or 1 of the preceding element, ``*'' matches 0 or more
+of the preceding element and ``+'' matches 1 or more of the preceding
+element
+
+\begin{verbatim}
+remove this eroneous output from html
+
+\end{verbatim}
+
+\textless img{[}\textbackslash s{]}+src="ElecticTales{[}0-9{]}+x.png"{[}\textbackslash s{]}+alt="PICT"{[}\textbackslash s{]}?\textgreater{}
+\textless img{[}\textbackslash s{]}+src="ElecticTales{[}0-9{]}+x.png"{[}\textbackslash s{]}+alt="PICT"{[}\textbackslash s{]}+class="calibre1"{[}\textbackslash s{]}?/\textgreater{}
+\textless img{[}\textbackslash s{]}+src="taleChineseEmbers{[}0-9{]}+x.png"{[}\textbackslash s{]}+alt="PICT"{[}\textbackslash s{]}+class="calibre1"{[}\textbackslash s{]}?/\textgreater{}
+
+\begin{verbatim}
+images, use eps or
+
+<a href="https://tug.org/tex4ht/">  __www__ Tug</a>
+
+\end{verbatim}
+
+\subsection{command output comment}
+
+htlatex abc abc.html HTML, bitmap math xhlatex abc abc.html XHTML,
+bitmap math mzlatex abc abc.xml XHTML, MathML math oolatex abc abc.sxw
+OpenOffice XML (uses MathML math) dbmlatex abc abc.xml DocBook, MathML
+math
+
+\begin{verbatim}
+``
+htlatex tale.tex "xhtml,html5,charset=utf-8" " -cunihtf -utf8"
+\end{verbatim}
+
+\textless a href="https://www.lode.de/blog/converting-latex-to-html/
+
+If you are experiencing problems after switching a XeLaTeX project to
+pdfLaTeX in the project settings, an adaption of the LaTeX code is
+necessary. As we do not want to make the original XeLaTeX code unusable,
+we need to add conditional statements. For this, you need to include the
+ifxetex package:
+
+\begin{verbatim}
+\usepackage{ifxetex}
+\end{verbatim}
+
+Then, simply surround XeLaTeX-specific code (or simply code that
+produces an error) with a ``\textbackslash ifxetex
+\ldots\textbackslash else \ldots\textbackslash fi'' construction. Having
+this compatibility allows you to generate PDF files with XeLaTeX, and
+also produce HTML documents with pdfLaTeX when you switch compiler
+settings.
+
+For example, when generating an HTML file, you cannot include PDF files
+or vector graphics. Instead, you have to rely on JPG and PNG image
+files. Another application would be if you want to minimize the size of
+an existing image file for an e-book. A code might look like this:
+
+\begin{verbatim}
+\begin{figure}[H]\centering 
+\ifxetex 
+\adjustbox{max width=.95\columnwidth, max height=.4\textheight}{ 
+\input{images/philosophy-hierarchy} 
+} 
+\else 
+\includegraphics{images/philosophy-hierarchy.png} 
+\fi 
+\label{c1_ontology-epistemology:fig} 
+\end{figure}
+\end{verbatim}
+
+\end{document}

@@ -1,0 +1,207 @@
+```language-ascii-art2
+ ┌─┐┌┬┐┌─┐┬    ┌─╮ ┌─┐ ┌┬┐
+ └─┐││││ ││    ├─┘ │ │  ││
+ └─┘┴ ┴└─┘└─┘  ┴ ○ └─┘○ ┴┘ ○
+```
+=> index.gmi Back to Home
+
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view?Print+on+demand   Wikipedia article
+
+## Indie publisher
+
+Also called "small press" and "Independent press", are publishers rather than printers, if that is still a distinction?, this subject will get a chapter in time.
+
+## Print-on-demand: fees and royalties. 
+
+As an example Kindle Direct Publishing charges nothing to place your book in the storefront, but they share profits. When I last checked the author gets 60% in royalties (whats made on the sale) for normal distribution and 40% for expanded. 
+
+Ingramspark has lower royalties and a US$49 setup fee to upload a title. 
+
+Companies will offer pricing calculators.
+
+Amazon competes at retail so Ingramspark may be more attractive if you are targeting stores. 
+
+My point is the options vary so be clear about your objectives and research thoroughly.
+
+If you can make this decision early you may avoid rework be designing you product to the market place you are entering.
+
+Some companies also offer print on demand in conjunction with packages that you have to buy first. These tend to be the pricier options. Bookbaby, for example, charges $399 for their package which allows distribution on sites like Amazon. 
+
+Where there is an online calculator I have priced a 84 page 8.5" x 5.5", or as near as I can find, Perfect bound B&W on basic paper, which I present in a table like below. Please do you own test this is mid 2022, this will date.
+
+```   
+  ╭──────────────────────────────────────────────╮ 
+  │ copies │ pages │    $total   │  $each  │ Frt | 
+  ╰──────────────────────────────────────────────╯ 
+```
+
+## Non-exhaustive list of P.O.D. untested, not recommendations
+
+
+=> https://www.ingramspark.com/    __www__ Ingram Lightning Source
+
+> Upload your titles to Lightning Source.
+> Titles are made available to our global book distribution network.
+> Customers order your titles—online or in stores.
+> Lightning Source prints only those books.
+> You choose if books are shipped direct to you or your customers.
+
+One of the more popular print on demand companies. Connected to over 40,000  retailers, libraries, and e-commerce outlets. Also does eBooks version. Some options for formatting and some customizability. 
+
+=> https://www.draft2digital.com/   __www__ Draft 2 Digital
+
+> We are Self-Publishing with Support
+> Your book is your priority. Our priority is you. We build tools and services that let you focus on writing while we take care of layout, publishing, distribution, print-on-demand paperbacks, and more.
+> Keep writing. We’re here for the rest.
+
+=> https://www.acutrack.com/   __www__  Acutrack
+
+> Print & Sell Your Book Worldwide. Profitably.
+> With us, you can print your book and sell it globally with instant shipping – it’s an enormous improvement over the one-at-a-time print-on-demand (POD) model. We’ll have your books out the door before a POD company adds a print order into its system.
+
+Acutrack allows authors to work with their pre-press team to finalize your product before it goes to print. They offer a variety of different options for your book and they let you order anywhere from 1-1000 copies at a time, making the process super customizable. They also integrate the book into whatever storefront you use, allowing for easier distribution. 
+
+=> https://kdp.amazon.com/   __www__ Kindle Direct Publishing
+
+> Self-publish eBooks and paperbacks for free with Kindle Direct Publishing, and reach millions of readers on Amazon.
+> Get to market fast. Publishing takes less than 5 minutes and your book appears on Kindle stores worldwide within 72 hours.
+> Make more money. Earn up to 70% royalty on sales to customers in the US, Canada, UK, Germany, India, France, Italy, Spain, Japan, Brazil, Mexico, Australia and more. 
+> Enroll in KDP Select and earn more money through Kindle Unlimited and the Kindle Owners' Lending Library.
+> Keep control. Keep control of your rights and set your own list prices. Make changes to your books at any time.
+> Publish in digital and print. Publish Kindle eBooks and paperbacks for free on KDP.
+> Get started today! Self-publish with KDP for free. Learn how easy it is.
+
+Very popular and widely-used print on demand publisher, its extremely user-friendly. Comes with a free ISBN which allows you to use their Expanded Distribution Network, meaning other companies like stores and schools can order your book. Delivered in 24 to 48 hours. 
+
+=> https://www.lulu.com/   __www__ Lulu 
+
+> Publish. Print. Prosper.
+> Publish, print, and sell your books globally with our Print-On-Demand network while eliminating the risk and hassle of inventory and fulfillment.
+
+Lulu prints hardcover books as well as paperback and offer a huge variety of book formats, like yearbooks, comics, or novels. Authors can make their books more personalized, and it gives the author more control. You’ll be able to sell on Amazon, but it takes a little longer for Lulu to get your book ready than Amazon does. 
+
+```
+  ╭──────────────────────────────────────────────╮ 
+  │ copies │ pages │    $total   │  $each  │ Frt | 
+  │      1 │    84 │     US$3.83 │ US$3.83 │  x  | 
+  ╰──────────────────────────────────────────────╯ 
+```
+
+=> https://www.bookbaby.com/   __www__ 
+
+> Where Writers Become Authors
+> Print and self-publish your own book today. At BookBaby, we provide every > service you need, all under one roof.
+
+May be better for authors with an established platform and some cash to invest in their production. The cost is higher than other platforms, and print-to-order is after an initial order of 25 books.
+
+``` 
+  ╭──────────────────────────────────────────────╮ 
+  │ copies │ pages │    $total   │  $each  │ Frt | 
+  │     25 │    84 │   US$292.75 │US$11.71 │  x  | 
+  │    100 │    84 │   US$619.00 │ US$6.19 │  x  | 
+  │   1000 │    84 │ US$4,049.00 │ US$4.05 │  x  | 
+  ╰──────────────────────────────────────────────╯ 
+```
+
+
+=> https://www.thebookpatch.com/   __www__ The Book Patch
+
+> Self Publishing Simplified, No Minimum Orders, Best Printing Prices, 3-5 Business Day Turnaround, No Setup Fee, Zero Fee Bookstore
+
+Advertises no setup or listing fees and charges on the number of books ordered. The more you buy, the cheaper per book. You also could keep all of your royalties, good option if the fees on Lulu or KDP are a deterrent. 
+
+``` 
+  ╭──────────────────────────────────────────────╮ 
+  │ copies │ pages │    $total   │  $each  │ Frt | 
+  │     25 │    84 │   US$129.75 │ US$5.19 │  x  | 
+  │    100 │    84 │   US$441.00 │ US$4.41 │  x  | 
+  │   1000 │    84 │ US$3,630.00 │ US$3.63 │  x  | 
+  ╰──────────────────────────────────────────────╯ 
+```
+
+=> https://www.blurb.co.uk/   __www__ Blurb
+
+> WHAT WILL FILL YOUR PAGES?
+> Adventure and exploration were made to be documented. Turn your journey into a professional-quality photo book.
+
+There are fees to sell through sites like Amazon, but you can sell on Blurb for free. They allow some control over the profit margins on each sale. 
+
+``` 
+  ╭──────────────────────────────────────────────╮ 
+  │ copies │ pages │  discount   │   each  │ Frt | 
+  │      1 │    84 │1 - 1 bks-10%│  £17.76 │  x  | 
+  │  10-19 │    84 │10-19 bks-10%│         │  x  |
+  │  20-49 │    84 │20-49 bks-20%│         │  x  |
+  │    100 │    84 │50+   bks-25%│         │  x  | 
+  │   1000 │    84 │50+   bks-25%│         │  x  | 
+  ╰──────────────────────────────────────────────╯ 
+```
+
+=> https://www.trafford.com/   __www__ Trafford Publishing
+
+> Do You Have a Story to Tell?
+> Trafford Publishing has helped over 17,000 writers publish their books since 1995. Achieve your dream of becoming an author with all the publishing, marketing, and bookselling tools you need.
+
+Option for authors with a little more cash to invest. They offer printing if you buy one of their packages. For the up-front cost, you’re getting a very polished product. 
+
+=> https://www.diggypod.com/   __www__ Diggy POD 
+
+> Self Publishing
+> We are the go to online resource for the do-it-yourselfer that wants to learn about the self-publishing process.
+
+Print books in batches of 24, and have a pricing calculator on their website. They offer free shipping over 100. 
+
+I did a test quote for the blue book shown in the image on the home page of ths site.
+
+``` 
+  ╭──────────────────────────────────────────────╮ 
+  │ copies │ pages │    $total   │  $each  │ Frt | 
+  │     24 │    84 │   US$177.05 │ US$7.38 │  x  | 
+  │    100 │    84 │   US$367.23 │ US$3.67 │  x  | 
+  │   1000 │    84 │ US$2,083.47 │ US$2.08 │  x  | 
+  ╰──────────────────────────────────────────────╯ 
+```
+
+=> https://www.ondemandbooks.com/   __www__ Espresso Book Machine®
+
+> Books Printed In Minutes At Point Of Sale
+> For Immediate Pick Up Or Delivery
+
+Allow you to collaborate with editors and designers, but it allows stores and libraries to print books in-house using special printers. 
+This basically takes out the middle man, or a retailer, and brings the book directly to the library or school ordering the book. 
+
+=> https://www.48hrbooks.com/   __www__ 48hr Books
+=> https://www.48hrbooks.com/ultimate-guide/download-pdf 48hr Books Pdf Howto
+=> https://www.48hrbooks.com/ultimate-guide/get-printed 48hr Books Printed Howto (USA)
+
+Like the name implies, 48hr Books gets your book ready to go between twenty-four and forty-eight hours. They have the option to print hardcover, and they have templates for authors to use if they’re unable to get their own formatting done. However, this company does require authors to order a minimum of ten books, which means it isn’t technically print-on-demand in the literal sense.
+
+``` 
+  ╭──────────────────────────────────────────────╮ 
+  │ copies │ pages │    $total   │  $each  │ Frt | 
+  │     24 │    84 │   US$176.69 │ US$7.36 │  x  | 
+  │    100 │    84 │   US$356.20 │ US$2.85 │  x  | 
+  │   1000 │    84 │ US$2,109.70 │ US$2.06 │  x  | 
+  ╰──────────────────────────────────────────────╯ 
+```
+
+### China/H.K. suppliers
+
+=> https://www.candidusprint.com/ Candidus Print
+=> https://www.candidusprint.com/productinfo/490861.html Candidus Novel
+http://www.candidusprint.com - +86-755-33073344 (WhatsApp - +86-13510244214)
+Skype: uuuhy@msn.com / rainbowprinting QQ: 446504458  WeChat: he-yong99
+
+``` 
+  ╭──────────────────────────────────────────────╮ 
+  │ copies │ pages │    $total   │  $each  │ Frt | 
+  │    100 │    84 │   US$260.00 │ US$2.60 │  x  | 
+  ╰──────────────────────────────────────────────╯ 
+```
+
+=>  http://www.gpp.com.hk/bookpublishing/index.htm   __www__ Green Pagoda Press P.O.D.
+
+> It is easy to publish your book for the first timer. With one click, your book is printed.You can upload your final proofread manuscript or send us a PDF for output. 
+> If you have not formatted your manuscript, our design team can help you with the artwork, translation and cover design.
+> Your ISBN, if you have one. We recommend that you obtain an ISBN before you publish as your ISBN should appear on the copyright page.
+

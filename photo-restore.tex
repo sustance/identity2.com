@@ -1,0 +1,193 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  pdftitle={photo-restore},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+
+\title{photo-restore}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+
+Return to index
+
+\begin{verbatim}
+┌─────────┐         ┌─────────┐         ┌─────────┐         ┌─────────┐
+└─────────┴─────────┘         └─────────┘         └─────────┴─────────┘
+\end{verbatim}
+
+\subsection{Old photo correction}
+
+Although this sites foundation is text, images are essential as well
+people expect clear high resolution images but those in your family or
+royaalty free collections are often faded and grainy.
+
+Not only are powerful image editors like photoshop readily available but
+also very good open source editors like Gimp, Kritta etc.
+
+Even more exciting recently are powerful A.I. algorithm that can take
+your grandma's tiny low resolution collection and scale them up to less
+accurate but much more usable higher resolution.
+
+Two places to try up-scaling for free
+
+\textbf{www} myHeritage Photo Enhancer
+
+These algorithms are often most suitable to run on an online service,
+not your PC.
+
+\subsubsection{Services to explore}
+
+\textbf{www} algorithmia
+
+\textbf{www} converter
+
+\textbf{www} Restoring
+
+\textbf{www} Colab Research Depixelizer
+
+DeOldify
+
+\subsubsection{Notes}
+
+\textbf{www} Colab Research Depixelizer
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Crop
+\item
+  Patch
+\item
+  Levels
+\item
+  mask/blur, correct bright or dark areas
+\end{enumerate}
+
+\begin{verbatim}
+  ┏━━━━┓    ┏━━━━┓    ┏━━━━┓    ┏━━━━┓    ┏━━━━┓    ┏━━━━┓  
+  ┗━━━━┛    ┗━━━━┛    ┗━━━━┛    ┗━━━━┛    ┗━━━━┛    ┗━━━━┛  
+\end{verbatim}
+
+About histograms:
+
+\textless a
+href="http://www.marginalsoftware.com/HowtoScan/using\_histograms\_as\_a\_tool3.htm
+
+\begin{itemize}
+\item
+  Open the combo box list and select a hypothetical source image to be
+  scanned (e.g. Low-key - 2).
+\item
+  Adjust exposure until the maximum number of tones is reached. Usually
+  this reached when the specular highlights (the right-most edge of the
+  source histogram) nears the right margin.
+\item
+  Applying a black-white point setting displays any possible
+  discontinuities of the tonal scale due to this function.
+\end{itemize}
+
+\begin{verbatim}
+  ┏━━━━┓    ┏━━━━┓    ┏━━━━┓    ┏━━━━┓    ┏━━━━┓    ┏━━━━┓  
+  ┗━━━━┛    ┗━━━━┛    ┗━━━━┛    ┗━━━━┛    ┗━━━━┛    ┗━━━━┛  
+\end{verbatim}
+
+\begin{itemize}
+\tightlist
+\item
+  No matter how new or old your slide is, your scanner will scan the
+  gloss that comes off a slide.
+\end{itemize}
+
+This leaves you with flat, faded colours. Yes, time also fades colour.
+But the biggest issue is the scanning process itself -\/- it's not
+perfect.
+
+To get rid of this without touching any of the real colours of your
+image, do the following...
+
+\begin{itemize}
+\tightlist
+\item
+  GIMP \textgreater{} Colors \textgreater{} Auto \textgreater{} White
+  Balance
+\item
+  Once you got rid of the glare, you can begin to brighten the colours.
+  Go...
+\item
+  GIMP \textgreater{} Colors \textgreater{} Hue and Saturation
+\item
+  It's very simple, go...
+\item
+  Colors \textgreater{} Levels
+\item
+  I know I'm telling you to use "Color Levels" to fix exposure. But in
+  my experience, this does a far better job than the actual Exposure
+  Levels tool.
+\item
+  Anyway, here's exactly what to do...
+\end{itemize}
+
+Tips On How To Use The Levels Tool
+
+\begin{itemize}
+\item
+  Here's a few techniques to remember when using the Levels tool...
+\item
+  Do you see the "Input Levels"?
+\item
+  Take the middle arrow (the gray one), and move it to the right
+\item
+  In my scan I moved it to about 0.57-\/- toward the white arrow
+\item
+  Say your slide is too dark, then move the gray arrow left,toward the
+  black arrow
+\item
+  That's all it takes!
+\end{itemize}
+
+\end{document}

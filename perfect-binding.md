@@ -1,0 +1,177 @@
+ # Identity2
+ 
+ ```language-ascii-art2
+  ┌─┐┌┬┐┌─┐┬    ┌─╮ ┬ ┬ ┬┌┬┐ ┬ ┬ ┬ ┌─┐
+  └─┐││││ ││    ├┘┐ │ │╲│ ││ │ │╲│ │┌┐
+  └─┘┴ ┴└─┘└─┘  ┴─┘ ┴ ┴ ┴ ┴┘ ┴ ┴ ┴ └─┘ 
+ ```
+ 
+ <a href="./index.html">   Return to index</a>
+
+ 
+ ## Perfect binding
+ 
+ <a href="perfect-voice.html">  Text of voice track for youtube video</a>
+
+ 
+ "Perfect binding" is the binding used in mass market paperback books where the cut or folded edge of pages are coated with hot melt glue and the cover is folded over the melted binding to attach it.
+ 
+ Most tutorials are bookbinding artists and enthusiasts who introduce you to the language and culture of book-binding,I am going to use plain language and help you see that it is actually simple and inexpensive to bind as book.
+ 
+ Physical books are not dead, I travel a lot and missed transfers, quarantine, lost bags etc mean you can easily end up in a strange country with no charged phone so I have a passport sized book with all my emergency needs with passport. I create a few heirloom items like family histories, journals, travel records that I give as gifts and will still be around in 100 years when no knows what a pdf or ebook is.
+ 
+ Once you can hand make a book you likely are able to send the same files to a print on demand service on the internet and be a published author.
+ 
+ There are many machines and pre-folded covers available on the market for small business and home use. These are suitable for the gap between producing a few small size books like mine in the photo below, and using a commercial print-on-demand service. I do not do that, I will describe the small volume DIY process below. It takes a little practice but is a simple task.
+ 
+ <a href="https://identity2.com/i/bks.jpg">  __img__ DIY Passport to Novel size jpg</a>
+
+ 
+ ### DIY tutorial
+ 
+ I will assume you want a book around large novel size and for convenience I will assume a home printer capable of A4 and A5 double sides (manual or auto)
+ 
+ Print the A4 cover on the thickest card-stock your printer can handle, usually at that's at least 250gm/sqm, or if you have pre-printed card stock, check that it is not plastic coated or temperature sensitive by testing a sample of it to 250°C minimum to see it does not bubble or buckle (tell you how later) I find cutting up paper shopping bags for expensive stores works well.
+ 
+ Print the A5 pages double-sided in normal 1-2, 3-4, etc. You CAN print 2-up on A4 double-sided and fold them to A5, but I find life is too short for the extra maths, complication, folding and clamping, unless your printer cannot handle A5 forget it.
+ 
+ In another place I will talk type-setting, for now just know you will need to set a narrower left/right margin for front/back of page unless the book is quite narrow, You will need large margins if you want it novel size as you will be trimming of a lot of waste. DO check you are getting front and back text block aligned properly by holding page up to a window.
+ 
+ The simplest machine is a domestic iron on its back and a sheet of paper, oven baking paper is best, but any printer paper is OK. The temperature setting on the iron is not calibrated, so you work around it by cutting a sliver off the hot-melt glue stick, put them on the paper and the paper on the iron preheated to maximum and time how long it takes to melt. If it melts in less than a couple of minutes reduce the temperature until it does.
+ 
+ This works well, the draw-backs are, You are limited to about A5 paper, you need about four hands i.e. 2 people for the procedure, its easy to burn yourself, and the owner of the iron needs to share your enthusiasm.
+ 
+ My current simple machine is a short piece of rectangular steel tube stabilized in a rudimentary wooden frame that has holes that take take-away chopsticks to hold th cover in place while I work with two hands only.
+ The pipe is heated by a hot air blower poked in one end so it has accurate control from room temp up to 450°C
+ <a href="https://identity2.com/i/bind-mach.jpg">  __img__ Simple binding machine to keep glue hot</a>
+
+ 
+ Print your A5 pages, check that font and back texts are all aligned, insert any blank and artwork and photo pages, an extra plain page front and back can sometimes save you from mistakes as you can cut them away or glue them down.
+ 
+ Press the block of pages firmly together and measure the thickness. 
+ 
+ Print the cover if you wish, or cut your pre-printed card to about A4 when score two grooves near the center of the page per below so the gap INSIDE the scores is the same as the thickness. Find a narrow but smooth blade shape tool (I use the back of a table knife) that will compress and mark the card without cutting and weakening it, the objective is to score until you can make a sharp straight fold at that point.
+ ```
+ ┌──────────────────────┬─┬──────────────────────┐
+ │                      │ │                      │
+ │  A4 Paper            │ │                      │
+ │                      │ │                      │
+ │                      │ │                      │
+ │                      │ │                      │
+ │                      │ │                      │
+ │                      │ │                      │
+ │                      │ │                      │
+ │                      │ │                      │
+ │                      │ │                      │
+ │                      │ │                      │
+ │                      │ │                      │
+ │                      │ │                      │
+ │                      │ │                      │
+ │                      │ │                      │
+ └──────────────────────┴─┴──────────────────────┘
+                        ↑ ↑
+                        │ │
+             Score two grooves in paper
+ ```
+ 
+ Fold and unfold until these hinges open and close sharply easily
+ 
+ 
+ ```
+     ◄─────────A4 folded about half ────────────►
+ 
+     ┌───────────────────────────────────────────
+ ┌──►│
+ │   └───────────────────────────────────────────
+ │
+ └──────Measure thickness of printed pages
+ ```
+ Now look at a paperback book and observe that the glue fills the space between the edge of the pages and the cover, and importantly extends slightly into the face of the first page.
+ 
+ To replicate this, you need to apply glue evenly over either in the "gutter" we folded in the cover or on the edge of the stack of pages. Many of the people training on this run a bead of hot glue down the spine, run a blade down it and evenly spread it right across the spine, no heater, then push the spine into the cover and then press it until it is cool. 
+ 
+ I also want to do it that way, but I don't have the skill, speed and constant practice to do it successfully, at least not yet.
+ 
+ I place the folded cover in the simple or simpler heating machine, this allows me to take as long as I like to get the glue perfectly distributed, as it will stay hot as long as I need.
+ 
+ Prepare the Pages by tamping the spine edge to align the pages, then use strong Aligator or similar clips or staples if the book is thin enough, to firmly hold it together.
+ 
+ If the margin is wider than you want because you did not get the printer settings correct, or if the page edges are still uneven at the spine you now get out the only two tools you absolutely need, (1) A strong, rigid, sharp box cutter or similar knife and (2) A metal or other rigid ruler.
+ 
+ With long smooth unforced strokes, slice the edge of the block off to create the margin you need.
+ 
+  
+ ```
+ ┌───────────────────────────────── Clips, Staples, Clamps
+ │
+ │     ┌───────────────────┐
+ │     │                   ├┐
+ │     │                   ││
+ │    ┌┼┐ ──────────────   ││
+ └───►└┼┘                  ││
+       │  ──────────────   ││
+      ┌┼┐                  ││
+      └┼┘ ──────────────   ││
+       │                   │┤◄─────Spine to be glued
+      ┌┼┐ ──────           ││
+      └┼┘                  ││
+       │  ─────────────    ││
+      ┌┼┐                  ││
+      └┼┘ ──────────────   ││
+       │                   ││
+       └─┬─────────────────┘│
+         └──────────────────┘
+ ```
+ Preheat the glue warmer, say 230°C
+ 
+ Place the cover spine on the heater, 
+ 
+ Run a bead of hot glue down the gutter, you can spread it out with toothpicks, swizzle sticks or whatever you have to get it even all over, including 1-2 cm around the corner of the spine. Look at the thickness of the glue strip in a novel and try for one and a half of that, as our process is less precise and controlled.
+ 
+ Now if you are paying attention you will realize you don't absolutely need the glue gun as you can slice a strip off a cold glue stick place it and melt it with the simple heater, it's just easier and less stress on the cover.
+ 
+ If the temperature is too low, the glue will be too viscous, just turn it up. If it is too hot your cover material will warp, scorch, bubble or de-laminate, throw it away and make a new cover, These temperatures are just a bit higher than boiling water, it won't catch fire. 
+ 
+ Practice bending the page stack one way and the other on the long axis by just twisting the clamped edge, this slides the spine edge pages back and forward over one another.
+ 
+ Place the spine edge into the trough of the folded cover and press the spine into the glue to ensure contact then twist the stack back and forward while holding down firmly, this will drag some glue up into the pages slightly and capture any that you did not tamp down to perfect alignment.
+   
+ Inspect between the cover and first page ear the spine, it should be glued at least 1 mm up the page, excess glue will stick them together to far in, but we added a blank page so its not critical, even if you messed up completely you slice off the spine again later and rebind losing only the blank page. 
+ 
+ Carefully remove from heater, there may be glue blobs on the ends but that will be trimmed later. Working quickly place on a board and put another board on top, align the spine with edges of the board then place this sandwich under a weight, table leg, pile of books, whatever and run your finger along the spine to ensure the cover spine did not bulge off the spine when weighted.
+ 
+ As soon as it cools it is at full strength, lay the book on a cutting surface, a grid pattern helps you keep it square. Using the knife and ruler carefully cut back the three exposed edges, take your time unforced smooth strokes always making sure the blade is perpendicular.
+ 
+ Get the ruler and scoring tool and score a line front and back 2-3 mm from the spine to encourage the book to fold there rather than straining the glue strip.
+ 
+ 
+ 
+ ### Temperatures for DIY binding
+ * Baking paper to 350°C 
+ * 500g Cover Set to 350°C 
+ 
+ Cold pre-glued cover
+ * 2 min 30 seconds fully melt even without full contact
+ 
+ Perspex bending 
+ * Set 220°C (increase until distorts)
+ 
+ ###  Some commercial binding machines
+  
+ * Unibind XU138, 238, 338
+ * Unibinder 120 8M and 8.2
+ * Fellowes Helios 30 and Helios 60
+ * Covermate 550, ThermoBind TB500
+ * ThermoBind TB300, ThermoBind TB240S
+ * ProBind 1000, ProBind 2000
+ * ProBind Hardcover Crimper, Coverbind 5000, 
+ * Fellowes 250
+ * Fellowes 450
+ * Bind-it Perfect Binder II, 
+ * Bind-it Covermate 600 and 700 series
+ 
+ 
+ 
+ 
+ 
+ 

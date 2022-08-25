@@ -1,0 +1,99 @@
+# Identity2
+```language-ascii-art2
+ ┌─┐          ┬             ┌─┐           ┌┬┐
+ │  ┌┬┐┌─┐┬   │  ┌─┐┬ ┬┌─┐  │  ┌─┐┌─╮┌┬┐   │ ┌─┐┬ ┬┌┬┐
+ └─┐││││ ││   │  │ ││╲││┌┐  │┤ │ │├┐┘│││   │ ├┤  ╳  │
+ └─┘┴ ┴└─┘└─┘ └─┘└─┘┴ ┴└─┘  ┴  └─┘┴ ┴┴ ┴   ┴ └─┘┴ ┴ ┴
+```
+The smol process of long text creation and publication:
+
+Concept ▷ Writing ▷ Collaboration ▷ Review ▷ Copy Editing ▷ ISBN ▷ Render eDocs ▷ Hardcopy proofs ▷ Print on demand ▷ Full Publication
+
+> __Identity2__ plays on the *nom de plume* pseudonym adopted by an author.
+
+> Identity2 is a resource and enabler for all stages of smol long-format text, focusing on a philosophy of write-once-publish-anywhere, open source and self-sufficiency.
+
+## Concept, Writing, Collaboration and Review                    
+=> collaboration.gmi                             Collaboration
+=> photo-restore.gmi                             Photo restoration
+=> doc-conversion.gmi                            Document conversion
+
+## Editing
+=> gemini://gemi.dev/cgi-bin/wp.cgi/view?Copy+editing  Copy editing on Wikipedia 
+
+## ISBN
+=> isbn.gmi   ISBN information
+
+## Type-setting
+=> https://overleaf.com                         __www__ Online LaTeX editor
+
+## Rendering E Documents
+=> gemini://skyjake.fi/lagrange/                 Lagrange
+=> render-docs.gmi                               Doc creation
+
+## Hard copy D.I.Y.
+=> perfect-binding.gmi                           Perfect binding
+=> perfect-binding.pdf                           __pdf__ Perfect binding
+=> gemini://identity2.com/i/bks.jpg              __img__ DIY books
+
+## Print on demand & Publishing 
+=> print-on-demand.gmi                           Print on demand
+
+## Tools
+=> tools.gmi                                   Some suggestions on software tools
+
+## Code
+=> code.gmi                                     Code that makes this site work
+
+## Free Publishing on Gemini
+
+=> gemini://gmi.identity2.com  Read eclectic collection of books and/or contribute your own
+
+## Contact
+
+You are welcome to comment on the casule content
+
+=> gemini://maimingdao.xyz  or preview work in progress in DRAFTS
+
+Beingname ~sufbo  ~etacsufbo
+@etacsufbo@mastodon.social 
+
+=> http://t.me/etacsufbo  Telegram t.me/etacsufbo
+
+This guide is published first on the gemini ecosystem, with a derived versions on the Web and for pdf download.
+
+Best viewed with one of the Gemini Browsers below, but Web browsers for html also OK.
+
+```language-ascii-art2
+ ╭──────────────╮  ╭────────────────╮ 
+ │Gemini Browser│  │ Platform       │ 
+ ╰──────────────╯  ╰────────────────╯ 
+ ╭──────────────╮  ╭────────────────╮ 
+ │ Amfora       │  │ LinuxCLI/AndCLI│ 
+ │ Deedum       │  │ Android        │ 
+ │ Bomdadillo   │  │ LinuxCLI       │ 
+ │ Buram        │  │ Android        │ 
+ │ Deedum       │  │ Android        │ 
+ │ Elaho        │  │ iOS            │ 
+ │ GemiNaut     │  │ Windows        │ 
+ │ Kristal      │  │ Linux GUI      │ 
+ │ Lagrange     │  │ Wind/Linux/Mac │ 
+ │ Elaho        │  │ iOS            │ 
+ ╰──────────────╯  ╰────────────────╯ 
+```
+
+
+```language-ascii-art2
+ ┬┌┬┐┌─┐┬ ┬┌┬┐┬┌┬┐┬ ┬┌─┐ ╵┬  ┌─┐┬ ┬┌─┐ ┌─┐┌─┐┌─╮┌┬┐╵ ┌┬┐┌─┐┬ ┬┌┬┐
+ │ ││├┤ │╲│ │ │ │ └┬┘┌─┘  │  │ ││╲││┌┐○│┤ │ │├┐┘│││   │ ├┤  ╳  │
+ ┴ ┴┘└─┘┴ ┴ ┴ ┴ ┴  ┴ └──  └─┘└─┘┴ ┴└─┘ ┴  └─┘┴ ┴┴ ┴   ┴ └─┘┴ ┴ ┴
+```
+
+
+
+
+
+
+
+
+

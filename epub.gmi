@@ -1,0 +1,26 @@
+=> ./index.gmi Return to index
+```
+┌─────────┐         ┌─────────┐         ┌─────────┐         ┌─────────┐
+└─────────┴─────────┘         └─────────┘         └─────────┴─────────┘
+```
+ePub2 hello world
+```
+.
+ ├── mimetype                   (file) MUST BE UNCOMPRESSED
+ ├── META-INF
+ │   └── container.xml       (file)
+ └── OEBPS
+     ├── book.ncx                 (file)
+     ├── book.opf                 (file)
+     └── chapter01.xhtml    (file)
+```
+The file container.xml serves as a "bootstrap" for the book.
+
+The .opf file contains at a minimum, metadata of the book, the list of all files (except for mimetype, container.xml, and the .opf) that compose the book, with their full path, IDs and media-types, and, lastly, the "linear" list of topics in which the book should be read.
+
+The content of the dc:identifier element of the .opf file has to match the property of the meta element with name dtb:uid. Otherwise, http://www.threepress.org/document/epub-validate/ does not validate the document.
+
+
+ testing suite: Kindle Previewer 2, Adobe Digital Editions, iBooks, then on-device with Kindle Fire, Paperwhite, iPad and Android. 
+
+Font:   serif   sans-serif   cursive   fantasy   monospace

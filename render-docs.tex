@@ -1,0 +1,118 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  pdftitle={render-docs},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+
+\title{render-docs}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+
+\section{Identity2}
+
+\begin{verbatim}
+┬┌┬┐┌─┐┬ ┬┌┬┐┬┌┬┐┬ ┬┌─┐  ┬  ┌─┐┬ ┬┌─┐ ┌─┐┌─┐┌─╮┌┬┐ ┌┬┐┌─┐┬ ┬┌┬┐
+│ ││├┤ │╲│ │ │ │ └┬┘┌─┘  │  │ ││╲││┌┐|├┤ │ │├( │││  │ ├┤  ╳  │
+┴ ┴┘└─┘┴ ┴ ┴ ┴ ┴  ┴ └──  └─┘└─┘┴ ┴└─┘ ┴  └─┘┴ ┴┴ ┴  ┴ └─┘┴ ┴ ┴
+\end{verbatim}
+
+\subsection{General rendering notes}
+
+The specific of how this document is produced are in the "code" section
+
+\subsubsection{Rendering Ascii/Unicode Art}
+
+\textbf{www} Convert ascii to image
+
+\textbf{www} App, aafigure
+
+\subsubsection{eBooks - ePub}
+
+The basic structure of a ePub book is as follows, I have created eBook,
+mobi etc entirely from python scripts and it is possible and relatively
+easy. In practice however I found it easier to roughly assemble the book
+by script and through the editing stages, however instead of programming
+for all the edge cases just open it in \textbf{Sigil} to finalize, test,
+audit and final render.
+
+ePub2 hello world
+
+\begin{verbatim}
+.
+ ├── mimetype                (file) THIS ONE MUST BE UNCOMPRESSED
+ ├── META-INF
+ │   └── container.xml       (file)
+ └── OEBPS
+     ├── book.ncx             (file)
+     ├── book.opf             (file)
+     └── chapter01.xhtml      (file)
+\end{verbatim}
+
+The file container.xml serves as a "bootstrap" for the book.
+
+The .opf file contains at a minimum, metadata of the book, the list of
+all files (except for mimetype, container.xml, and the .opf) that
+compose the book, with their full path, IDs and media-types, and,
+lastly, the "linear" list of topics in which the book should be read.
+
+The content of the dc:identifier element of the .opf file has to match
+the property of the meta element with name dtb:uid. Otherwise,
+\textbf{www} Epub-validate
+
+does not validate the document.
+
+Testing suite: Kindle Previewer 2, Adobe Digital Editions, iBooks, then
+on-device with Kindle Fire, Paperwhite, iPad and Android.
+
+Font: serif sans-serif cursive fantasy monospace
+
+\begin{verbatim}
+  ┏━━━━┓    ┏━━━━┓    ┏━━━━┓    ┏━━━━┓    ┏━━━━┓    ┏━━━━┓  
+  ┗━━━━┛    ┗━━━━┛    ┗━━━━┛    ┗━━━━┛    ┗━━━━┛    ┗━━━━┛  
+\end{verbatim}
+
+\end{document}

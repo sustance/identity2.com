@@ -1,0 +1,113 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  pdftitle={tools},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+
+\title{tools}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+
+\section{Identity2}
+
+\begin{verbatim}
+┬┌┬┐┌─┐┬ ┬┌┬┐┬┌┬┐┬ ┬┌─┐  ┬  ┌─┐┬ ┬┌─┐ ┌─┐┌─┐┌─╮┌┬┐ ┌┬┐┌─┐┬ ┬┌┬┐
+│ ││├┤ │╲│ │ │ │ └┬┘┌─┘  │  │ ││╲││┌┐│├┤ │ │├( │││  │ ├┤  ╳  │
+┴ ┴┘└─┘┴ ┴ ┴ ┴ ┴  ┴ └──  └─┘└─┘┴ ┴└─┘ ┴  └─┘┴ ┴┴ ┴  ┴ └─┘┴ ┴ ┴
+\end{verbatim}
+
+\subsection{Writing}
+
+\subsubsection{Tools}
+
+You can write with anything you like as long as it understands unicode.
+
+It is best to use an editor that allows you to write plain text with as
+little clutter and distraction as possible, there are hundreds to choose
+from. I am currently using Geany as I am using gemtext markup and it
+shows formatted view in a sidebar. \textbf{www} Geany. Win Linux Mac
+
+To open the generated files from this site other than .gmi gemtext files
+and re-edit them you can use: \textbf{www} {[}tex,pdf{]} Online Overleaf
+LaTeX editor
+
+\textbf{www} {[}tex,pdf{]} Install Win/Mac/Linux Texstudio LaTeX editor
+
+\textbf{www} {[}epub,mobi,etc.{]} Install Win/Mac/Linux Sigil eBook
+editor
+
+\textbf{www} {[}jpg,png,etc.{]} Install Win/Mac/Linux Image editor
+
+A particular issue with writing in unicode in gemtext with simple tools
+is that is easy to enter unicode character that you can not find to
+remove but creates hassles down stream, find them like this:
+
+\begin{verbatim}
+   find . -type f -exec grep -H '┌┬┐┌─┐┬ ┬' {} \;
+\end{verbatim}
+
+If you have no 'nix (That's MacOS, Windows subsystem for 'nix, Linux and
+\& BSD) terminal for this or other commands there are many terminal
+choices online, including: \textbf{www} Free/no registration terminal if
+u have no 'nix
+
+\textbf{www} another Free/no registration terminal
+
+The tools above are what I use, partly because they are all free and
+supported by a community. Frankly it does not matter much what you use
+when you are aiming for smol and simple systems.
+
+A good text graphics grapics app would be handy but I have never found
+one. The good ones use only ascii characters which is too limiting and
+ugly and the unicode ones are immature.
+
+\begin{verbatim}
+  ┏━━━━┓    ┏━━━━┓    ┏━━━━┓    ┏━━━━┓    ┏━━━━┓    ┏━━━━┓  
+  ┗━━━━┛    ┗━━━━┛    ┗━━━━┛    ┗━━━━┛    ┗━━━━┛    ┗━━━━┛  
+\end{verbatim}
+
+\end{document}
